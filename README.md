@@ -5,7 +5,7 @@
 
 [![SEBI Registered Research Analyst](https://img.shields.io/badge/SEBI%20Registration-Research%20Analyst-0284C7.svg)](https://www.sebi.gov.in/)
 [![Experience](https://img.shields.io/badge/Experience-9%2B%20Years%20Derivatives%20Desk-193B56.svg)](#executive-profile)
-[![Primary Stack](https://img.shields.io/badge/Stack-Python%20%7C%20SQL%20%7C%20Polars%20%7C%20NumPy%20%7C%20SciPy-F59E0B.svg)](#quantitative-stack--engineering-competencies)
+[![Primary Stack](https://img.shields.io/badge/Stack-Python%20%7C%20SQL%20%7C%20AI--Augmented%20Quant%20R%26D-F59E0B.svg)](#quantitative-stack--engineering-competencies)
 [![Exchange Coverage](https://img.shields.io/badge/Markets-NSE%20%7C%20BSE%20%7C%20CBOE%20US%20Derivatives-10B981.svg)](#institutional-risk-governance--invariants)
 [![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-Executive%20Profile%20(PDF)-0A2540.svg)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher.pdf)
 [![Research Portfolio](https://img.shields.io/badge/Code%20Repository-quant--research--portfolio-10B981.svg)](https://github.com/prince-chauhan-pc/quant-research-portfolio)
@@ -17,7 +17,7 @@
 
 ## Executive Profile
 
-Derivatives research professional with **9+ years of experience** spanning options trading, market analysis, and systematic strategy development. Focused on Indian equity derivatives (NSE Nifty, Bank Nifty, Sensex) and US index options (CBOE SPX/VIX), with Python-based research covering volatility modeling, statistical arbitrage, and execution analysis. Experienced in strategy validation, portfolio risk monitoring, and research automation.
+Derivatives research professional with **9+ years of experience** spanning options trading, market analysis, and systematic strategy development. Combines deep institutional derivatives expertise with AI-augmented quantitative engineering to design, prototype, and rigorously validate production alpha and execution pipelines across Indian equity derivatives (NSE Nifty, Bank Nifty, Sensex) and US index options (CBOE SPX/VIX). Experienced in strategy validation, portfolio risk monitoring, and automated research workflows.
 
 - **Desk Mandate**: Systematic Options Volatility, Statistical Arbitrage, and Quantitative Risk Governance.
 - **Regulatory Standing**: SEBI Registered Research Analyst • NISM Series-XV Certified (Research Analyst).
@@ -42,17 +42,18 @@ Derivatives research professional with **9+ years of experience** spanning optio
 ```
                                   PRINCE CHAUHAN QUANT DESK
   ┌──────────────────────────────┬──────────────────────────────┬──────────────────────────────┐
-  │   Derivatives Mathematics    │    Quantitative Research     │   Systems & Infrastructure   │
+  │   Derivatives Mathematics    │    Quantitative Research     │   AI & Engineering Stack     │
   ├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
-  │ • SVI Total Variance Fitting │ • Point-in-Time Event Sim    │ • Python 3.11+ & Asyncio     │
-  │ • Black-Scholes Numerical IV │ • Dynamic SPAN Margin Models │ • SQL (DuckDB, PostgreSQL)   │
-  │ • Newton-Raphson & Brent     │ • Johansen Cointegration     │ • Memory-Mapped IPC (mmap)   │
-  │ • Dealer Gamma Exposure(GEX) │ • Ornstein-Uhlenbeck Fit     │ • Polars & Parquet Pipelines │
-  │ • Parkinson / GK Volatility  │ • K-Means Regime Clustering  │ • REST & WebSocket Telemetry │
+  │ • SVI Total Variance Fitting │ • Point-in-Time Event Sim    │ • AI-Augmented Quant R&D     │
+  │ • Black-Scholes Numerical IV │ • Dynamic SPAN Margin Models │ • Agentic Prompt Workflows   │
+  │ • Newton-Raphson & Brent     │ • Johansen Cointegration     │ • Python (NumPy, SciPy)      │
+  │ • Dealer Gamma Exposure(GEX) │ • Ornstein-Uhlenbeck Fit     │ • SQL (DuckDB, PostgreSQL)   │
+  │ • Parkinson / GK Volatility  │ • K-Means Regime Clustering  │ • Math Invariant Verification│
   └──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
 ```
 
-- **Languages & Compute**: Python 3.11+ (Polars, DuckDB, NumPy, SciPy, Statsmodels, Scikit-Learn, Asyncio), SQL (DuckDB, PostgreSQL), Apache Parquet, Git, Linux/Bash.
+- **AI-Augmented Quantitative Engineering**: Agentic LLM Architecture for Rapid Alpha Prototyping, Automated Pipeline Construction, Synthetic Scenario Generation, Code Verification, and Mathematical Invariant Auditing.
+- **Core Languages & Data Systems**: Python (NumPy, SciPy, Polars), SQL (DuckDB, PostgreSQL), Apache Parquet, Git, Linux.
 - **Financial Engineering**: Volatility Skew Calibration, Arbitrage-Free SVI Bounds, Delta-Neutral Skew Trading, Intraday Volatility Breakout, Calendar & Diagonal Arbitrage.
 - **Institutional Risk Metrics**: Bailey & Lopez de Prado Deflated Sharpe Ratio (DSR), Full-Sample RMS Sortino Semi-Deviation, Duration-Scaled Calmar, Historical/Parametric VaR, Conditional VaR (Expected Shortfall), Monte Carlo Ruin Cones (1,000 Paths).
 - **Execution Microstructure**: Limit Order Queue Priority, Passive Fill Probability Modeling, Square-Root Market Impact Cost Attribution, Real-Time Bid-Ask Spread Crossing Optimization.
