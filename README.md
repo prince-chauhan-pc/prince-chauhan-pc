@@ -1,6 +1,6 @@
 # 🏛️ PRINCE CHAUHAN
 
-### Senior Quantitative Analyst & Researcher
+### Senior Quantitative Researcher | Options, Volatility & Systematic Trading
 **SEBI Registered Research Analyst • 9+ Years Quant Desk Experience • New Delhi, India**
 
 [![SEBI Registered Research Analyst](https://img.shields.io/badge/SEBI%20Registration-Research%20Analyst-0284C7.svg)](https://www.sebi.gov.in/)
