@@ -17,7 +17,7 @@
 
 ## Executive Profile
 
-Derivatives research professional with **9+ years of experience** spanning options trading, market analysis, and systematic strategy development. Combines deep institutional derivatives expertise with AI-augmented quantitative engineering to design, prototype, and rigorously validate production alpha and execution pipelines across Indian equity derivatives (NSE Nifty, Bank Nifty, Sensex) and US index options (CBOE SPX/VIX). Experienced in strategy validation, portfolio risk monitoring, and automated research workflows.
+Derivatives research professional with **9+ years of experience** spanning options trading, market analysis, and systematic strategy development. Combines deep institutional derivatives expertise with AI-augmented quantitative engineering to design, prototype, and rigorously validate production alpha and execution pipelines across Indian equity derivatives (NSE Nifty, Bank Nifty, Sensex) and US index options (CBOE SPX/VIX). Experienced in production alpha validation, multi-crore SPAN margin allocation, and automated research architectures.
 
 - **Desk Mandate**: Systematic Options Volatility, Statistical Arbitrage, and Quantitative Risk Governance.
 - **Regulatory Standing**: SEBI Registered Research Analyst • NISM Series-XV Certified (Research Analyst).
@@ -31,7 +31,7 @@ Derivatives research professional with **9+ years of experience** spanning optio
 
 | Repository / Deliverable | Category | Description | Direct Access |
 |---|---|---|---|
-| **[quant-research-portfolio](https://github.com/prince-chauhan-pc/quant-research-portfolio)** | **Public Research Library** | 7 reproducible quantitative research showcases with 29 unit tests, Black-Scholes/SVI vol modeling, Johansen cointegration, and point-in-time backtesting. | [Explore Codebase](https://github.com/prince-chauhan-pc/quant-research-portfolio) |
+| **[quant-research-portfolio](https://github.com/prince-chauhan-pc/quant-research-portfolio)** | **Institutional Research Frameworks** | 7 reproducible quantitative research showcases with 29 unit tests, Black-Scholes/SVI vol modeling, Johansen cointegration, and point-in-time backtesting. | [Explore Codebase](https://github.com/prince-chauhan-pc/quant-research-portfolio) |
 | **[Curriculum Vitae (PDF)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher.pdf)** | **Executive CV** | Two-page verified quantitative analyst & researcher CV with full career timeline, audited Sharpe ratios, and educational background. | [Download PDF](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher.pdf) |
 | **Institutional Tear Sheets** | **Audited Track Record** | 3-page executive performance tear sheets and VIX regime reports with native Indian Rupee (₹) typography and 5-year horizons. | [View Deliverables](https://github.com/prince-chauhan-pc/quant-research-portfolio#systematic-research-architectures--empirical-benchmarks) |
 
