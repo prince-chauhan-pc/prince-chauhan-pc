@@ -72,25 +72,26 @@ All quantitative models designed and deployed across this desk enforce non-negot
 
 ---
 
-## Institutional 8-Pillar Quant Architecture & Execution Framework
+## Institutional 9-Pillar Quant Architecture & Execution Framework
 
-All production trading engines, live market telemetry, and forensic backtest suites operate strictly under an institutional 8-pillar modular architecture:
+All production trading engines, live market telemetry, and forensic backtest suites operate strictly under an institutional 9-pillar modular architecture:
 
 ```
 [ 1. DATA PIPELINE ] ───► [ 2. SIGNAL ENGINE ] ───► [ 3. BACKTEST ENGINE ] ───► [ 4. RISK ENGINE ]
            │                                                                             │
            ▼                                                                             ▼
-[ 8. COMPLIANCE & CI/CD ] ◄── [ 7. P&L LOGGING ] ◄─── [ 6. LIVE MONITORING ] ◄─── [ 5. EXECUTION OMS ]
+[ 9. DELIVERABLES ] ◄── [ 8. COMPLIANCE ] ◄── [ 7. P&L ] ◄── [ 6. MONITORING ] ◄─── [ 5. EXECUTION OMS ]
 ```
 
-1. **Data Pipeline**: Centralized, unified feed handler with automatic token cycling and atomic IPC locking (`atomic_write_json`).
-2. **Signal Engine**: Canonical mathematical kernels (Black-Scholes Greeks, SVI surfaces, strike rounders, EMA filters).
-3. **Backtest Engine**: Forensic microstructure realism enforcing Rule L1 (0.50% turnover friction), Walk-Forward Efficiency (WFE), and Deflated Sharpe Ratio (DSR).
-4. **Risk Engine**: Central Pre-Trade Risk Engine enforcing portfolio daily loss limits, per-order margin caps, and circuit breakers.
-5. **Execution Layer**: ACID-compliant SQLite Order Management System (OMS) logging all orders with sub-second timestamps.
+1. **Data Pipeline**: Centralized, unified feed handler with automatic token cycling, single source of truth in `core/quant_utils.py`, and atomic IPC locking (`atomic_write_json`).
+2. **Signal Engine**: Canonical mathematical kernels (Black-Scholes Greeks, SVI surfaces, strike rounders, EMA filters, Dealer GEX profiles).
+3. **Backtest Engine**: Forensic microstructure realism enforcing Rule L1 (0.50% turnover friction), Walk-Forward Efficiency (WFE), and Bailey & Lopez de Prado Deflated Sharpe Ratio (DSR).
+4. **Risk Engine**: Central Pre-Trade Risk Engine enforcing portfolio daily loss limits, per-order margin caps, circuit breakers, and Rule L25 asymmetric exit preservation.
+5. **Execution Layer**: Dual-market ACID-compliant SQLite Order Management System (`orders.db` for INR Desk, `usa_quants.db` for USD Desk) logging all executions with sub-second timestamps.
 6. **Live Monitoring**: 60 FPS real-time web telemetry (Port 5008 Indian Quants & Port 5015 USA Markets) with in-place DOM diffing, Gzip compression, and OS-level QuickEdit freeze protection.
 7. **P&L Logging**: Thread-safe asynchronous Telegram dispatchers and continuous real-time MTM audit ledgers.
 8. **Compliance & DevOps**: Automated 6-Gate Pre-Flight Quality Sentinel and GitHub Actions CI/CD blocking non-compliant code before deployment.
+9. **Backtest Deliverables & VIX Stress Audit**: Mandatory 4-deliverables standard (3-page executive Tearsheet PDF, 5-sheet Excel with Sheet 5 Institutional Stress Audit, 11-column CSV Ledger, and VIX Regime PDF; default horizon strictly 2021-01-01 to present, excluding 2020 COVID shock).
 
 ---
 
