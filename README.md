@@ -1,106 +1,14 @@
-# PRINCE CHAUHAN
+# Prince Chauhan
 
-### Senior Quantitative Researcher | Options, Volatility & Systematic Trading
-**SEBI Registered Research Analyst • 9+ Years Quant Desk Experience • New Delhi, India**
+Quant researcher and developer on Indian index options (Nifty, Bank Nifty, Sensex), New Delhi. Nine years on derivatives desks; SEBI Registered Research Analyst; CA Final (Group 1).
 
-[![SEBI Registered Research Analyst](https://img.shields.io/badge/SEBI%20Registration-Research%20Analyst-0F2942.svg)](https://www.sebi.gov.in/)
-[![Experience](https://img.shields.io/badge/Experience-9%2B%20Years%20Derivatives%20Desk-1E3A5F.svg)](#executive-profile)
-[![Primary Stack](https://img.shields.io/badge/Stack-Python%20%7C%20SQL%20%7C%20AI--Augmented%20Quant-0F2942.svg)](#quantitative-stack--engineering-competencies)
-[![Exchange Coverage](https://img.shields.io/badge/Markets-NSE%20%7C%20BSE%20%7C%20CBOE%20US%20Derivatives-1E3A5F.svg)](#institutional-risk-governance--invariants)
-[![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-Executive%20Profile%20(PDF)-0F2942.svg)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher.pdf)
-[![Research Portfolio](https://img.shields.io/badge/Code%20Repository-quant--research--portfolio-1E3A5F.svg)](https://github.com/prince-chauhan-pc/quant-research-portfolio)
+I build and run a fully automated options desk: tick data, research, backtesting, execution through broker APIs, risk controls and live monitoring. Most of that code is private. The public pieces are here:
 
-> **PROPRIETARY DESK & COMPLIANCE NOTICE**:
-> *This profile provides verified institutional credentials, mathematical research frameworks, and executive portfolio deliverables. Live automated execution loops, high-frequency co-location telemetry (DhanHQ), and proprietary production capital allocations operate strictly within an air-gapped institutional private desk.*
+- **[quant-research-portfolio](https://github.com/prince-chauhan-pc/quant-research-portfolio)**: tested Python versions of the methods behind the desk. Backtesting with real costs, SVI smiles with arbitrage checks, Johansen cointegration, volatility regimes, execution cost, Deflated Sharpe and Probability of Backtest Overfitting.
+- **[CV (PDF)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher.pdf)**
 
----
+What I care about in research: costs charged on every leg before any metric, no lookahead, and every number traceable to a trade ledger.
 
-## Executive Profile
+**Stack:** Python (pandas, NumPy, SciPy), asyncio, WebSockets, Flask, SQLite, DuckDB, PostgreSQL, Parquet, Git. Broker APIs: DhanHQ, Alpaca.
 
-Derivatives research professional with **9+ years of experience** spanning options trading, market analysis, and systematic strategy development. Combines deep institutional derivatives expertise with AI-augmented quantitative engineering to design, prototype, and rigorously validate production alpha and execution pipelines across Indian equity derivatives (NSE Nifty, Bank Nifty, Sensex) and US index options (CBOE SPX/VIX). Experienced in production alpha validation, multi-crore SPAN margin allocation, and automated research architectures.
-
-- **Desk Mandate**: Systematic Options Volatility, Statistical Arbitrage, and Quantitative Risk Governance.
-- **Regulatory Standing**: SEBI Registered Research Analyst • NISM Series-XV Certified (Research Analyst).
-- **Academic Foundation**: Bachelor of Commerce (Honours), Kirori Mal College, University of Delhi (1st Division, 71% Marks) • CA Final Group 1 (ICAI, 78% Marks).
-- **Core Specialization**: Arbitrage-Free SVI Volatility Surfaces, Dealer Gamma Exposure (GEX), Causal Point-in-Time Vectorized Backtesting, Limit Order Book (LOB) Execution Modeling, and Low-Latency Data Architectures.
-- **Location**: New Delhi, India • **Contact**: [pchauhanrajput.pc@gmail.com](mailto:pchauhanrajput.pc@gmail.com)
-
----
-
-## Featured Quantitative Showcases & Portfolios
-
-| Repository / Deliverable | Category | Description | Direct Access |
-|---|---|---|---|
-| **[quant-research-portfolio](https://github.com/prince-chauhan-pc/quant-research-portfolio)** | **Institutional Research Frameworks** | 7 reproducible quantitative research showcases with 29 unit tests, Black-Scholes/SVI vol modeling, Johansen cointegration, and point-in-time backtesting. | [Explore Codebase](https://github.com/prince-chauhan-pc/quant-research-portfolio) |
-| **[Curriculum Vitae (PDF)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher.pdf)** | **Executive CV** | Two-page verified quantitative analyst & researcher CV with full career timeline, audited Sharpe ratios, and educational background. | [Download PDF](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher.pdf) |
-| **Institutional Tear Sheets** | **Audited Track Record** | 3-page executive performance tear sheets and VIX regime reports with native Indian Rupee (₹) typography and 5-year horizons. | [View Deliverables](https://github.com/prince-chauhan-pc/quant-research-portfolio#systematic-research-architectures--empirical-benchmarks) |
-
----
-
-## Quantitative Stack & Engineering Competencies
-
-```
-                                  PRINCE CHAUHAN QUANT DESK
-  ┌──────────────────────────────┬──────────────────────────────┬──────────────────────────────┐
-  │   Derivatives Mathematics    │    Quantitative Research     │   AI & Engineering Stack     │
-  ├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
-  │ • SVI Total Variance Fitting │ • Point-in-Time Event Sim    │ • AI-Augmented Quant R&D     │
-  │ • Black-Scholes Numerical IV │ • Dynamic SPAN Margin Models │ • Autonomous Agent Arch      │
-  │ • Newton-Raphson & Brent     │ • Johansen Cointegration     │ • Python (NumPy, SciPy)      │
-  │ • Dealer Gamma Exposure(GEX) │ • Ornstein-Uhlenbeck Fit     │ • SQL (DuckDB, PostgreSQL)   │
-  │ • Parkinson / GK Volatility  │ • K-Means Regime Clustering  │ • Math Invariant Verification│
-  └──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
-```
-
-- **AI-Augmented Quantitative Engineering**: Agentic LLM Architecture for Rapid Alpha Prototyping, Automated Pipeline Construction, Synthetic Scenario Generation, Code Verification, and Mathematical Invariant Auditing.
-- **Core Languages & Data Systems**: Python (NumPy, SciPy, Polars), SQL (DuckDB, PostgreSQL), Apache Parquet, Git, Linux.
-- **Financial Engineering**: Volatility Skew Calibration, Arbitrage-Free SVI Bounds, Delta-Neutral Skew Trading, Intraday Volatility Breakout, Calendar & Diagonal Arbitrage.
-- **Institutional Risk Metrics**: Bailey & Lopez de Prado Deflated Sharpe Ratio (DSR), Full-Sample RMS Sortino Semi-Deviation, Duration-Scaled Calmar, Historical/Parametric VaR, Conditional VaR (Expected Shortfall), Monte Carlo Ruin Cones (1,000 Paths).
-- **Execution Microstructure**: Limit Order Queue Priority, Passive Fill Probability Modeling, Square-Root Market Impact Cost Attribution, Real-Time Bid-Ask Spread Crossing Optimization.
-
----
-
-## Institutional Risk Governance & Quantitative Invariants
-
-All quantitative models designed and deployed across this desk enforce non-negotiable institutional invariants:
-1. **0.50% Round-Trip Turnover Friction**: Deducted on every single option leg before computing Sharpe, Sortino, or P&L.
-2. **Zero Lookahead Bias**: 100% causal point-in-time processing using strictly historical tick/bar data (t <= T-1).
-3. **Exchange Margin Benchmarks**: Calibrated to ₹2.50L/lot (Short Straddle), ₹1.80L/lot (Naked Short), and ₹0.65L/lot (Hedged Spread).
-4. **Direct Capital Sizing**: Allocation calculated directly as floor(Available Capital / Margin per Lot) with zero arbitrary cash haircuts.
-5. **Walk-Forward Overfitting Gate**: 70% In-Sample training, 20% Out-of-Sample testing, and 10% Blind Holdout validation with maximum 30% Sharpe degradation cap.
-6. **Parameter Plateau Standard**: Optimum parameters must reside on broad, stable multi-dimensional plateaus (P +/- 10% stability).
-
----
-
-## Institutional 9-Pillar Quant Architecture & Execution Framework
-
-All production trading engines, live market telemetry, and forensic backtest suites operate strictly under an institutional 9-pillar modular architecture:
-
-```
-[ 1. DATA PIPELINE ] ───► [ 2. SIGNAL ENGINE ] ───► [ 3. BACKTEST ENGINE ] ───► [ 4. RISK ENGINE ]
-           │                                                                             │
-           ▼                                                                             ▼
-[ 9. DELIVERABLES ] ◄── [ 8. COMPLIANCE ] ◄── [ 7. P&L ] ◄── [ 6. MONITORING ] ◄─── [ 5. EXECUTION OMS ]
-```
-
-1. **Data Pipeline**: Centralized, unified feed handler with automatic token cycling, single source of truth in `core/quant_utils.py`, and atomic IPC locking (`atomic_write_json`).
-2. **Signal Engine**: Canonical mathematical kernels (Black-Scholes Greeks, SVI surfaces, strike rounders, EMA filters, Dealer GEX profiles).
-3. **Backtest Engine**: Forensic microstructure realism enforcing Rule L1 (0.50% turnover friction), Walk-Forward Efficiency (WFE), and Bailey & Lopez de Prado Deflated Sharpe Ratio (DSR).
-4. **Risk Engine**: Central Pre-Trade Risk Engine enforcing portfolio daily loss limits, per-order margin caps, circuit breakers, and Rule L25 asymmetric exit preservation.
-5. **Execution Layer**: Dual-market ACID-compliant SQLite Order Management System (`orders.db` for INR Desk, `usa_quants.db` for USD Desk) logging all executions with sub-second timestamps.
-6. **Live Monitoring**: 60 FPS real-time web telemetry (Port 5008 Indian Quants & Port 5015 USA Markets) with in-place DOM diffing, Gzip compression, and OS-level QuickEdit freeze protection.
-7. **P&L Logging**: Thread-safe asynchronous Telegram dispatchers and continuous real-time MTM audit ledgers.
-8. **Compliance & DevOps**: Automated 6-Gate Pre-Flight Quality Sentinel and GitHub Actions CI/CD blocking non-compliant code before deployment.
-9. **Backtest Deliverables & VIX Stress Audit**: Mandatory 4-deliverables standard (3-page executive Tearsheet PDF, 5-sheet Excel with Sheet 5 Institutional Stress Audit, 11-column CSV Ledger, and VIX Regime PDF; default horizon strictly 2021-01-01 to present, excluding 2020 COVID shock).
-
----
-
-## Executive Verification & Contact
-
-- **Curriculum Vitae (PDF)**: [`Prince Chauhan Quants Researcher.pdf`](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20Quants%20Researcher.pdf)
-- **Public Code Repository**: [github.com/prince-chauhan-pc/quant-research-portfolio](https://github.com/prince-chauhan-pc/quant-research-portfolio)
-- **Direct Email**: [pchauhanrajput.pc@gmail.com](mailto:pchauhanrajput.pc@gmail.com)
-- **LinkedIn**: [linkedin.com/in/prince-chauhan-quant](https://www.linkedin.com/in/prince-chauhan-quant/)
-
----
-*Research Architecture by Prince Chauhan • SEBI Registered Research Analyst*
+**Contact:** [LinkedIn](https://www.linkedin.com/in/prince-chauhan-quant/) · pchauhanrajput.pc@gmail.com
