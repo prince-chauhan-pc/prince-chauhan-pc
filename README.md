@@ -1,7 +1,7 @@
 # Prince Chauhan
 
 Senior Quantitative Researcher & Systematic Derivatives Desk Lead — New Delhi, India.  
-SEBI Registered Research Analyst · 9+ Years Derivatives Architecture · ~₹50 Cr Notional Capacity
+SEBI Registered Research Analyst · 9+ Years Derivatives Architecture · ~₹100 Cr Notional Capacity
 
 [![Markets](https://img.shields.io/badge/Markets-India%20NSE%2FBSE%20%7C%20USA%20CBOE%20SPX-0284C7.svg)](#-dual-market-infrastructure)
 [![Desk](https://img.shields.io/badge/Desk-24h%20Dual--Market%20Systematic-059669.svg)](#-dual-market-infrastructure)
@@ -15,7 +15,7 @@ SEBI Registered Research Analyst · 9+ Years Derivatives Architecture · ~₹50 
 
 I architect and operate an institutional systematic options desk spanning Indian index derivatives (NSE Nifty, Bank Nifty, BSE Sensex) and USA volatility products (CBOE SPX, CME futures). 
 
-With 9+ years on derivatives desks (SMC Global Securities, Smart Bulls Capital), my quantitative models manage ~₹50 Cr notional capacity with strict pre-trade risk controls, dynamic freeze-order slicing, and non-negotiable friction deductions on every leg.
+With 9+ years on derivatives desks (SMC Global Securities, Smart Bulls Capital), my quantitative models manage ~₹100 Cr notional capacity with strict pre-trade risk controls, dynamic freeze-order slicing, and non-negotiable friction deductions on every leg.
 
 - **Public Research Showcase**: **[`quant-research-portfolio`](https://github.com/prince-chauhan-pc/quant-research-portfolio)** — Tested Python implementations of production methods (SVI volatility surfaces, Johansen basket cointegration, K-means regime filters, execution latency simulation, and Deflated Sharpe overfitting gates).
 - **Curriculum Vitae**: **[Download Institutional CV (PDF)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20-%20Senior%20Quant%20Researcher%20and%20Trader.pdf)**.
@@ -26,10 +26,10 @@ With 9+ years on derivatives desks (SMC Global Securities, Smart Bulls Capital),
 
 The desk operates across two continuous sessions:
 
-| Market | Operating Window (IST) | Core Products | Primary Feeds & Gateway |
-|---|---|---|---|
-| **India Desk** | 08:50 – 15:45 IST | Nifty 50, Bank Nifty, Sensex F&O | DhanHQ API v2 WebSocket, PreTrade RMS, Rule L25 Exit Escalator |
-| **USA Desk** | 18:30 – 03:00 IST | CBOE SPX 0DTE/Multiday, CME ES/NQ | Databento OPRA L3 tick streams, Live GEX / Net Dealer Gamma |
+| Market | Platform & Cockpit | Operating Window (IST) | Core Products | Primary Feeds & Gateway |
+|---|---|---|---|---|
+| **India Desk** | **Indian Trading Desk: Quants Nerve** | 08:50 – 15:45 IST | Nifty 50, Bank Nifty, Sensex F&O | DhanHQ API v2 WebSocket, PreTrade RMS, Rule L25 Exit Escalator |
+| **USA Desk** | **USA Desk: Quants Nervo** | 18:30 – 03:00 IST | CBOE SPX 0DTE/Multiday, CME ES/NQ | Databento OPRA L3 tick streams, Live GEX / Net Dealer Gamma |
 
 ---
 
@@ -37,23 +37,23 @@ The desk operates across two continuous sessions:
 
 ```mermaid
 flowchart LR
-    subgraph Execution["PC-2173 — Office Live Execution Node"]
+    subgraph Execution["PC-2173 — Office Live Execution Node<br/>Indian Trading Desk: Quants Nerve"]
         Dhan[DhanHQ WebSocket] --> Bus1[(Atomic Data Bus<br/>shared_data/)]
         Bus1 --> Bots1[India Systematic Bots]
         Bots1 --> RMS[Pre-Trade Risk Gate]
         RMS --> Fills[Broker Gateway]
     end
 
-    subgraph Research["PC-2597 — Heavy Compute Cluster"]
+    subgraph Research["PC-2597 — Heavy Compute Cluster<br/>Quant Research Lab"]
         TickData[(Historical Parquet)] --> Harness[Master Backtest Harness]
         Harness --> MC[10,000 Monte Carlo Paths]
         MC --> Gate[Deflated Sharpe & Overfitting Gate]
     end
 
-    subgraph US_Node["MacBook — USA Desk & Live Buying Node"]
+    subgraph US_Node["MacBook — USA Desk & Live Buying Node<br/>USA Desk: Quants Nervo"]
         DataB[Databento OPRA Feed] --> GEX[Net Dealer Gamma Engine]
         GEX --> USBots[SPX Systematic Bots]
-        USBots --> USPort[Port 5015 Dashboard]
+        USBots --> USPort[Quants Nervo Live Telemetry]
     end
 
     Research -- Tested code via Git --> Execution
