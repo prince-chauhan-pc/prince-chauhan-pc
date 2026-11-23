@@ -1,6 +1,6 @@
 # Prince Chauhan
 
-Senior Quantitative Researcher & Trader | Options, Volatility & Systematic Trading. New Delhi, India; open to relocation. 9+ years in index derivatives: research since 2017, trading SMC Global Securities' proprietary capital since Dec 2024. SEBI Registered Research Analyst. CA Final, Group 1 cleared.
+Senior Quantitative Researcher & Trader | Options, Volatility & Systematic Trading. New Delhi, India. 9+ years in Indian index derivatives; at SMC Global Securities since Dec 2024, trading the firm's proprietary capital and building its systematic trading platform. SEBI Registered Research Analyst. CA Final, Group 1 cleared.
 
 I trade intraday Nifty and Sensex index options and F&O stocks with rule-based methods, and I build the research, backtest and risk code behind them. That code is private. The public pieces are here:
 
