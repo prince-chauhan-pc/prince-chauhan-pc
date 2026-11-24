@@ -18,6 +18,6 @@ I trade intraday Nifty and Sensex index options and F&O stocks with rule-based m
   - Hourly Options Buying, Options Scalper and ORB Nifty Futures lost money after costs as coded.
   - The Bank Nifty basket was withdrawn because its code could not reproduce the original backtest result; the combined portfolio built on it was withdrawn too.
 
-Stack: Python (pandas, NumPy, SciPy, scikit-learn), SQL, DuckDB, Parquet.
+Stack: Python (pandas, NumPy, SciPy), SQL, DuckDB, Parquet.
 
 Contact: pchauhanrajput.pc@gmail.com
