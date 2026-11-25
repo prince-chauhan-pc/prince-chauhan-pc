@@ -1,6 +1,6 @@
 # Prince Chauhan
 
-Senior Quantitative Researcher & Trader | Options, Volatility & Systematic Trading. New Delhi, India. 9+ years in index derivatives. At SMC Global Securities since Dec 2024: I lead a five-person team, trade the firm's rule-based proprietary book in NSE and BSE index options and F&O stocks, and built its systematic trading platform. I also run QuantsNervo, a US options and futures desk across S&P 500, Nasdaq-100 and megacap stocks. SEBI Registered Research Analyst. CA Final, Group 1 cleared.
+Senior Quantitative Researcher & Trader | Options, Volatility & Systematic Trading. New Delhi, India. 9+ years in index derivatives. At SMC Global Securities since Dec 2024: I lead a five-person team, trade the firm's rule-based proprietary book in NSE and BSE index options and F&O stocks, and built its systematic trading platform. I also run QuantsNervo, the firm's US options and futures desk across S&P 500, Nasdaq-100 and megacap stocks. SEBI Registered Research Analyst. CA Final, Group 1 cleared.
 
 The trading, research and risk code is private. The public pieces are here:
 
