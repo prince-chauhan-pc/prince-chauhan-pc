@@ -3,7 +3,7 @@
 **Senior Quant Researcher & Trader | Options, Futures & Equities | Systematic Trading**
 New Delhi, India · SEBI Registered Research Analyst · CA Final, Group 1 cleared
 
-Quantitative researcher and trader with 9+ years in index derivatives. At SMC Global Securities since Dec 2024, I lead a five-person team, trade the firm's rule-based proprietary book across NSE and BSE index options, futures, stock F&O and cash equities, and built the Python platform that runs it, from research and validation to risk and execution. I also run QuantsNervo, SMC's US options and futures desk for S&P 500, Nasdaq-100 and megacap stocks.
+Quantitative researcher and trader with 9+ years in index derivatives. At SMC Global Securities since Dec 2024, I lead a five-person team, trade the firm's rule-based proprietary book across NSE and BSE index options, futures, stock F&O and cash equities, and built the Python platform that runs it, from research and validation to risk and execution. I also run QuantsNervo (US), SMC's options and futures desk for S&P 500, Nasdaq-100 and megacap stocks.
 
 The trading, research and risk code is private. The public pieces are here:
 
