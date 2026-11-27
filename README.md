@@ -8,7 +8,7 @@ Quantitative researcher and trader with 9+ years in index derivatives. At SMC Gl
 The trading, research and risk code is private. The public pieces are here:
 
 - [quant-research-portfolio](https://github.com/prince-chauhan-pc/quant-research-portfolio): small, tested Python versions of methods I use: point-in-time options backtesting with costs, SVI smiles with arbitrage checks, Engle-Granger and Johansen cointegration, volatility regimes tested out of sample, execution cost, tear sheets, Deflated Sharpe and Probability of Backtest Overfitting. All data there is synthetic.
-- [CV (PDF)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20-%20Senior%20Quant%20Researcher%20and%20Trader.pdf)
+- [CV (PDF)](https://github.com/prince-chauhan-pc/quant-research-portfolio/blob/main/docs/PC_CV/Prince%20Chauhan%20-%20Quant%20Researcher%20and%20Trader.pdf)
 
 ## How I do research
 
